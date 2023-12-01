@@ -1,0 +1,103 @@
+/* Reset some default styles */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: beige;
+}
+
+.mycontainer {
+    display: flex;
+  }
+  .mycontainer > div {
+    width: 33%;
+  }
+  html {
+    box-sizing: border-box;
+  }
+
+div p{
+    color: #082c5c;
+}
+
+h3{
+    color: #be8c04f8;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+        color: #bebcbc; 
+        font-size: 2rem; 
+        font-weight: bold; 
+        margin-bottom: 20px;
+        font-family: 'Times New Roman', Times, serif; 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero {
+    background-image: url('Bg.jpeg'); /* Replace with your actual image */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+nav {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.featured-content {
+    padding: 50px 0;
+}
+
+.car-item {
+    text-align: center;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 33%;
+}
+
+.car-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

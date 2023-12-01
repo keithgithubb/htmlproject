@@ -1,0 +1,113 @@
+/* Additional styles for Car Model Details page */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.mycontainer {
+    display: flex;
+  }
+  .mycontainer > div {
+    width: 33%;
+  }
+
+body{
+    background-color: beige;
+}
+
+nav {
+    background-color: #555;
+    color: #fff;
+    padding: 3px 0;
+}
+.heads{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 2px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.hero {
+    background-image: url('Bg.jpeg'); /* Replace with your actual image */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+.car-model-details {
+    padding: 50px 0;
+    display: inline;
+    width: 100%
+}
+
+.car-details {
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 0px,auto;
+    margin-left: 350px;
+   
+}
+
+html {
+    box-sizing: border-box;
+  }
+
+
+.car-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.car-details h3 {
+    margin-top: 20px;
+}
+
+.car-details ul {
+    list-style: none;
+    margin: 8px 0;
+}
+
+.car-details ul li {
+    margin-bottom: 5px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
